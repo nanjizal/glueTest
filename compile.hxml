@@ -1,0 +1,18 @@
+-lib dsHelper
+-lib fracs
+-lib justPath
+-lib trilateral3 
+-lib pallette
+-lib hxPolyK
+-lib poly2trihx 
+-lib kitGL
+
+-lib gluon
+-lib linc_glfw
+-D gluon
+-D debug
+-main Main
+-dce full
+-cpp bin
+-cmd cd bin
+-cmd ./Main
